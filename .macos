@@ -400,7 +400,7 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 # Automatically hide and show the Dock
 # defaults write com.apple.dock autohide -bool true
 
-# Make hidden Applications appear translucent in the Dock
+# Dock: Make hidden Applications appear translucent in the Dock
 defaults write com.apple.dock showhidden -bool true
 
 # Disable the Launchpad gesture (pinch with thumb and three fingers)
