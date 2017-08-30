@@ -360,8 +360,8 @@ defaults write com.apple.dock tilesize -int 36
 # When you drag and drop a file onto a dock icon it will open in that application
 defaults write com.apple.dock enable-spring-load-actions-on-all-items -bool true
 
-# Show indicator lights for open applications in the Dock
-# defaults write com.apple.dock show-process-indicators -bool true
+# Dock: Show indicator lights for open applications in the Dock
+defaults write com.apple.dock show-process-indicators -bool true
 
 # Dock: Wipe all default app and folder icons from the Dock
 # This is only really useful when setting up a new Mac, 
