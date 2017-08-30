@@ -252,10 +252,10 @@ defaults write com.apple.finder QuitMenuItem -bool true
 # Finder: show all filename extensions
 # defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
-# Show status bar in Finderbar
+# Finder: Show status bar in Finder
 defaults write com.apple.finder ShowStatusBar -bool true
 
-# Show path bar in Finder
+# Finder: Show path bar in Finder
 defaults write com.apple.finder ShowPathbar -bool true
 
 # Finder: Display full POSIX path as window title
