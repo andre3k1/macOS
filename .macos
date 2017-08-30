@@ -264,8 +264,8 @@ defaults write com.apple.finder ShowPathbar -bool true
 # Finder: Keep folders on top when sorting by name
 defaults write com.apple.finder _FXSortFoldersFirst -bool true
 
-# When performing a search, search the current folder by default
-# defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+# Finder: When performing a search, search the current folder by default
+defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 
 # Disable the warning when changing a file extension
 # defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
