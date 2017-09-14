@@ -916,8 +916,8 @@ defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 # Tweetbot.app                                                                #
 ###############################################################################
 
-# Bypass the annoyingly slow t.co URL shortener
-defaults write com.tapbots.TweetbotMac OpenURLsDirectly -bool true
+# Tweetbot: Bypass the annoyingly slow t.co URL shortener
+# defaults write com.tapbots.TweetbotMac OpenURLsDirectly -bool true
 
 ###############################################################################
 # Additional                                                                  #
