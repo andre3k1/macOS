@@ -261,8 +261,8 @@ defaults write com.apple.finder ShowPathbar -bool true
 # Finder: Display full POSIX path as window title
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
-# Finder: Keep folders on top when sorting by name
-defaults write com.apple.finder _FXSortFoldersFirst -bool true
+# Finder: Always sort folders above files when sorting by name
+defaults write com.apple.finder _FXSortFoldersFirst -bool true 
 
 # Finder: When performing a search, search the current folder by default
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
