@@ -1,0 +1,8 @@
+## Scrollbar Visibility (System Preferences > General > Show scrollbars)
+## Command:
+##   $ defaults write NSGlobalDomain AppleShowScrollBars -string <option>
+## Where <option> can be any of the following:
+## [1] "Automatic" : scrollbar appears both when you start scrolling and when the cursor is in the area of the scrollbar
+## [2] "WhenScrolling" : scrollbars only show up when you start scrolling
+## [3] "Always" : scrollbars will always be visible even when you are not scrolling
+defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
